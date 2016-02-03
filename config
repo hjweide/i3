@@ -201,7 +201,7 @@ exec --no-startup-id nm-applet
 
 # startup applications
 exec --no-startup-id ssh-add /home/hendrik/.ssh/id_rsa
-exec --no-startup-id redshift || redshift -l 42.73:73.69
+exec --no-startup-id redshift || redshift -l 42.73:-73.69
 exec --no-startup-id gnome-screensaver
 exec --no-startup-id gnome-keyring-daemon --start
 
